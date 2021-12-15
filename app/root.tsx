@@ -144,7 +144,7 @@ const Layout: FC = ({ children }) => {
           </Link>
           <div style={{display: 'flex', gap: '20px'}}>
             <nav aria-label="Main navigation" className="remix-app__header-nav">
-              <ul>
+              <ul style={{height: '100%'}}>
                 <li>
                   <Link to="/blog">Blog</Link>
                 </li>

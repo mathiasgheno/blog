@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
 import { IProps } from './Button.types';
 import * as icons from '../../icons';
-// import 'app/components/Button/Button.css';
 import styles from "./Button.css";
 
 export const links = () => [
@@ -19,7 +18,6 @@ export const Button: FC<IProps> = (props) => {
     >
       {props.description && props.description}
       {Icon && <Icon />}
-      {/*<Dark/>*/}
     </button>
   )
 }
